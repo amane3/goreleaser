@@ -5,9 +5,9 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/amane3/goreleaser/pkg/config"
 	"github.com/apex/log"
 	"github.com/goreleaser/fileglob"
-	"github.com/goreleaser/goreleaser/pkg/config"
 )
 
 // Find resolves extra files globs et al into a map of names/paths or an error.

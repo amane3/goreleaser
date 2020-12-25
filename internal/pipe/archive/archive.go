@@ -15,13 +15,13 @@ import (
 	"github.com/campoy/unique"
 	"github.com/goreleaser/fileglob"
 
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/ids"
-	"github.com/goreleaser/goreleaser/internal/semerrgroup"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/archive"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/amane3/goreleaser/internal/artifact"
+	"github.com/amane3/goreleaser/internal/ids"
+	"github.com/amane3/goreleaser/internal/semerrgroup"
+	"github.com/amane3/goreleaser/internal/tmpl"
+	"github.com/amane3/goreleaser/pkg/archive"
+	"github.com/amane3/goreleaser/pkg/config"
+	"github.com/amane3/goreleaser/pkg/context"
 )
 
 const (

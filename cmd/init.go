@@ -3,9 +3,9 @@ package cmd
 import (
 	"os"
 
+	"github.com/amane3/goreleaser/internal/static"
 	"github.com/apex/log"
 	"github.com/fatih/color"
-	"github.com/goreleaser/goreleaser/internal/static"
 	"github.com/spf13/cobra"
 )
 

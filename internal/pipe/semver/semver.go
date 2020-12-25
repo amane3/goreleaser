@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/Masterminds/semver/v3"
+	"github.com/amane3/goreleaser/internal/pipe"
+	"github.com/amane3/goreleaser/pkg/context"
 	"github.com/apex/log"
-	"github.com/goreleaser/goreleaser/internal/pipe"
-	"github.com/goreleaser/goreleaser/pkg/context"
 )
 
 // Pipe is a global hook pipe.

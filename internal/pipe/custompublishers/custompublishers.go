@@ -2,9 +2,9 @@
 package custompublishers
 
 import (
-	"github.com/goreleaser/goreleaser/internal/exec"
-	"github.com/goreleaser/goreleaser/internal/pipe"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/amane3/goreleaser/internal/exec"
+	"github.com/amane3/goreleaser/internal/pipe"
+	"github.com/amane3/goreleaser/pkg/context"
 )
 
 // Pipe for custom publisher.

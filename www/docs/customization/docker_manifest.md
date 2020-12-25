@@ -2,7 +2,7 @@
 title: Docker Manifest
 ---
 
-Since [v0.148.0](https://github.com/goreleaser/goreleaser/releases/tag/v0.148.0),
+Since [v0.148.0](https://github.com/amane3/goreleaser/releases/tag/v0.148.0),
 GoReleaser supports building and pushing Docker multi-platform images through
 the `docker manifest` tool.
 

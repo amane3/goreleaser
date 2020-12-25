@@ -7,9 +7,9 @@ import (
 	"io/ioutil"
 	h "net/http"
 
-	"github.com/goreleaser/goreleaser/internal/http"
-	"github.com/goreleaser/goreleaser/internal/pipe"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/amane3/goreleaser/internal/http"
+	"github.com/amane3/goreleaser/internal/pipe"
+	"github.com/amane3/goreleaser/pkg/context"
 )
 
 // Pipe for Artifactory.

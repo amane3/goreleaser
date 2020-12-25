@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/goreleaser/goreleaser/internal/pipe"
-	"github.com/goreleaser/goreleaser/internal/semerrgroup"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/amane3/goreleaser/internal/pipe"
+	"github.com/amane3/goreleaser/internal/semerrgroup"
+	"github.com/amane3/goreleaser/pkg/context"
 )
 
 // Pipe for blobs.

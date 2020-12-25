@@ -4,7 +4,7 @@ package project
 import (
 	"fmt"
 
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/amane3/goreleaser/pkg/context"
 )
 
 // Pipe implemens defaulter to set the project name.

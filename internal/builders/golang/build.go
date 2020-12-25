@@ -13,12 +13,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/amane3/goreleaser/internal/artifact"
+	"github.com/amane3/goreleaser/internal/tmpl"
+	api "github.com/amane3/goreleaser/pkg/build"
+	"github.com/amane3/goreleaser/pkg/config"
+	"github.com/amane3/goreleaser/pkg/context"
 	"github.com/apex/log"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	api "github.com/goreleaser/goreleaser/pkg/build"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
 )
 
 // Default builder instance.

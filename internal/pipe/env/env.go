@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/amane3/goreleaser/pkg/context"
 	"github.com/apex/log"
-	"github.com/goreleaser/goreleaser/pkg/context"
 	homedir "github.com/mitchellh/go-homedir"
 )
 
@@ -17,7 +17,7 @@ import (
 var ErrMissingToken = errors.New("missing GITHUB_TOKEN, GITLAB_TOKEN and GITEA_TOKEN")
 
 // ErrMultipleTokens indicates that multiple tokens are defined. ATM only one of them if allowed.
-// See https://github.com/goreleaser/goreleaser/pull/809
+// See https://github.com/amane3/goreleaser/pull/809
 var ErrMultipleTokens = errors.New("multiple tokens defined. Only one is allowed")
 
 // Pipe for env.

@@ -3,12 +3,12 @@ package cmd
 import (
 	"time"
 
+	"github.com/amane3/goreleaser/internal/middleware"
+	"github.com/amane3/goreleaser/internal/pipeline"
+	"github.com/amane3/goreleaser/pkg/context"
 	"github.com/apex/log"
 	"github.com/caarlos0/ctrlc"
 	"github.com/fatih/color"
-	"github.com/goreleaser/goreleaser/internal/middleware"
-	"github.com/goreleaser/goreleaser/internal/pipeline"
-	"github.com/goreleaser/goreleaser/pkg/context"
 	"github.com/spf13/cobra"
 )
 

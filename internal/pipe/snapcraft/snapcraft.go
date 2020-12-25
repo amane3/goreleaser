@@ -13,14 +13,14 @@ import (
 	"github.com/apex/log"
 	"gopkg.in/yaml.v2"
 
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/ids"
-	"github.com/goreleaser/goreleaser/internal/linux"
-	"github.com/goreleaser/goreleaser/internal/pipe"
-	"github.com/goreleaser/goreleaser/internal/semerrgroup"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/amane3/goreleaser/internal/artifact"
+	"github.com/amane3/goreleaser/internal/ids"
+	"github.com/amane3/goreleaser/internal/linux"
+	"github.com/amane3/goreleaser/internal/pipe"
+	"github.com/amane3/goreleaser/internal/semerrgroup"
+	"github.com/amane3/goreleaser/internal/tmpl"
+	"github.com/amane3/goreleaser/pkg/config"
+	"github.com/amane3/goreleaser/pkg/context"
 )
 
 // ErrNoSnapcraft is shown when snapcraft cannot be found in $PATH.
@@ -250,7 +250,7 @@ func create(ctx *context.Context, snap config.Snapcraft, arch string, binaries [
 		}
 
 		// TODO: test that the correct binary is used in Command
-		// See https://github.com/goreleaser/goreleaser/pull/1449
+		// See https://github.com/amane3/goreleaser/pull/1449
 		appMetadata := AppMetadata{
 			Command: strings.TrimSpace(strings.Join([]string{
 				command,

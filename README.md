@@ -12,7 +12,7 @@ pushes a Homebrew formula to a tap repository. All that wrapped in your favorite
 This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 We appreciate your contribution. Please refer to our [contributing guidelines](CONTRIBUTING.md) for further information.
 
-For questions, support and general discussion, please use [GitHub Discussions](https://github.com/goreleaser/goreleaser/discussions);
+For questions, support and general discussion, please use [GitHub Discussions](https://github.com/amane3/goreleaser/discussions);
 
 ## Get GoReleaser
 
@@ -25,11 +25,11 @@ Documentation is hosted live at https://goreleaser.com
 
 ## Badges
 
-[![Release](https://img.shields.io/github/release/goreleaser/goreleaser.svg?style=for-the-badge)](https://github.com/goreleaser/goreleaser/releases/latest)
+[![Release](https://img.shields.io/github/release/goreleaser/goreleaser.svg?style=for-the-badge)](https://github.com/amane3/goreleaser/releases/latest)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=for-the-badge)](/LICENSE.md)
-[![Build status](https://img.shields.io/github/workflow/status/goreleaser/goreleaser/build?style=for-the-badge)](https://github.com/goreleaser/goreleaser/actions?workflow=build)
+[![Build status](https://img.shields.io/github/workflow/status/goreleaser/goreleaser/build?style=for-the-badge)](https://github.com/amane3/goreleaser/actions?workflow=build)
 [![Codecov branch](https://img.shields.io/codecov/c/github/goreleaser/goreleaser/master.svg?style=for-the-badge)](https://codecov.io/gh/goreleaser/goreleaser)
-[![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=for-the-badge)](http://godoc.org/github.com/goreleaser/goreleaser)
+[![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=for-the-badge)](http://godoc.org/github.com/amane3/goreleaser)
 [![SayThanks.io](https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg?style=for-the-badge)](https://saythanks.io/to/caarlos0)
 [![Powered By: GoReleaser](https://img.shields.io/badge/powered%20by-goreleaser-green.svg?style=for-the-badge)](https://github.com/goreleaser)
 [![Backers on Open Collective](https://opencollective.com/goreleaser/backers/badge.svg?style=for-the-badge)](https://opencollective.com/goreleaser/backers/)
@@ -84,7 +84,7 @@ Love our work and community? [Become a backer](https://opencollective.com/gorele
 ## Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/goreleaser/goreleaser/graphs/contributors"><img src="https://opencollective.com/goreleaser/contributors.svg?width=890" /></a>
+<a href="https://github.com/amane3/goreleaser/graphs/contributors"><img src="https://opencollective.com/goreleaser/contributors.svg?width=890" /></a>
 
 ## Stargazers over time
 

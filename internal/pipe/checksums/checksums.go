@@ -9,12 +9,12 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/amane3/goreleaser/internal/artifact"
+	"github.com/amane3/goreleaser/internal/pipe"
+	"github.com/amane3/goreleaser/internal/semerrgroup"
+	"github.com/amane3/goreleaser/internal/tmpl"
+	"github.com/amane3/goreleaser/pkg/context"
 	"github.com/apex/log"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/pipe"
-	"github.com/goreleaser/goreleaser/internal/semerrgroup"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/context"
 )
 
 // Pipe for checksums.

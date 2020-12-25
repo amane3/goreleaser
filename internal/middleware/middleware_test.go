@@ -1,6 +1,6 @@
 package middleware
 
-import "github.com/goreleaser/goreleaser/pkg/context"
+import "github.com/amane3/goreleaser/pkg/context"
 
 var ctx = &context.Context{}
 

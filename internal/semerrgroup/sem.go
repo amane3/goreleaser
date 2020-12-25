@@ -5,7 +5,7 @@ package semerrgroup
 import (
 	"sync"
 
-	"github.com/goreleaser/goreleaser/internal/pipe"
+	"github.com/amane3/goreleaser/internal/pipe"
 	"golang.org/x/sync/errgroup"
 )
 

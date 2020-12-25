@@ -6,18 +6,18 @@ import (
 	"os"
 	"time"
 
+	"github.com/amane3/goreleaser/internal/artifact"
+	"github.com/amane3/goreleaser/internal/client"
+	"github.com/amane3/goreleaser/internal/extrafiles"
+	"github.com/amane3/goreleaser/internal/git"
+	"github.com/amane3/goreleaser/internal/pipe"
+	"github.com/amane3/goreleaser/internal/semerrgroup"
+	"github.com/amane3/goreleaser/pkg/context"
 	"github.com/apex/log"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/client"
-	"github.com/goreleaser/goreleaser/internal/extrafiles"
-	"github.com/goreleaser/goreleaser/internal/git"
-	"github.com/goreleaser/goreleaser/internal/pipe"
-	"github.com/goreleaser/goreleaser/internal/semerrgroup"
-	"github.com/goreleaser/goreleaser/pkg/context"
 )
 
 // ErrMultipleReleases indicates that multiple releases are defined. ATM only one of them is allowed.
-// See https://github.com/goreleaser/goreleaser/pull/809
+// See https://github.com/amane3/goreleaser/pull/809
 var ErrMultipleReleases = errors.New("multiple releases are defined. Only one is allowed")
 
 // Pipe for github release.

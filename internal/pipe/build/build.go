@@ -11,18 +11,18 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/amane3/goreleaser/internal/ids"
+	"github.com/amane3/goreleaser/internal/logext"
+	"github.com/amane3/goreleaser/internal/semerrgroup"
+	"github.com/amane3/goreleaser/internal/tmpl"
+	builders "github.com/amane3/goreleaser/pkg/build"
+	"github.com/amane3/goreleaser/pkg/config"
+	"github.com/amane3/goreleaser/pkg/context"
 	"github.com/apex/log"
-	"github.com/goreleaser/goreleaser/internal/ids"
-	"github.com/goreleaser/goreleaser/internal/logext"
-	"github.com/goreleaser/goreleaser/internal/semerrgroup"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	builders "github.com/goreleaser/goreleaser/pkg/build"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
 	"github.com/mattn/go-shellwords"
 
 	// langs to init.
-	_ "github.com/goreleaser/goreleaser/internal/builders/golang"
+	_ "github.com/amane3/goreleaser/internal/builders/golang"
 )
 
 // Pipe for build.

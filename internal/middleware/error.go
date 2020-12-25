@@ -1,9 +1,9 @@
 package middleware
 
 import (
+	"github.com/amane3/goreleaser/internal/pipe"
+	"github.com/amane3/goreleaser/pkg/context"
 	"github.com/apex/log"
-	"github.com/goreleaser/goreleaser/internal/pipe"
-	"github.com/goreleaser/goreleaser/pkg/context"
 )
 
 // ErrHandler handles an action error, ignoring and logging pipe skipped

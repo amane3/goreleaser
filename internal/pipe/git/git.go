@@ -10,9 +10,9 @@ import (
 
 	"github.com/apex/log"
 
-	"github.com/goreleaser/goreleaser/internal/git"
-	"github.com/goreleaser/goreleaser/internal/pipe"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/amane3/goreleaser/internal/git"
+	"github.com/amane3/goreleaser/internal/pipe"
+	"github.com/amane3/goreleaser/pkg/context"
 )
 
 // Pipe that sets up git state.

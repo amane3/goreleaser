@@ -4,18 +4,18 @@ package publish
 import (
 	"fmt"
 
-	"github.com/goreleaser/goreleaser/internal/middleware"
-	"github.com/goreleaser/goreleaser/internal/pipe/artifactory"
-	"github.com/goreleaser/goreleaser/internal/pipe/blob"
-	"github.com/goreleaser/goreleaser/internal/pipe/brew"
-	"github.com/goreleaser/goreleaser/internal/pipe/custompublishers"
-	"github.com/goreleaser/goreleaser/internal/pipe/docker"
-	"github.com/goreleaser/goreleaser/internal/pipe/milestone"
-	"github.com/goreleaser/goreleaser/internal/pipe/release"
-	"github.com/goreleaser/goreleaser/internal/pipe/scoop"
-	"github.com/goreleaser/goreleaser/internal/pipe/snapcraft"
-	"github.com/goreleaser/goreleaser/internal/pipe/upload"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/amane3/goreleaser/internal/middleware"
+	"github.com/amane3/goreleaser/internal/pipe/artifactory"
+	"github.com/amane3/goreleaser/internal/pipe/blob"
+	"github.com/amane3/goreleaser/internal/pipe/brew"
+	"github.com/amane3/goreleaser/internal/pipe/custompublishers"
+	"github.com/amane3/goreleaser/internal/pipe/docker"
+	"github.com/amane3/goreleaser/internal/pipe/milestone"
+	"github.com/amane3/goreleaser/internal/pipe/release"
+	"github.com/amane3/goreleaser/internal/pipe/scoop"
+	"github.com/amane3/goreleaser/internal/pipe/snapcraft"
+	"github.com/amane3/goreleaser/internal/pipe/upload"
+	"github.com/amane3/goreleaser/pkg/context"
 )
 
 // Pipe that publishes artifacts.

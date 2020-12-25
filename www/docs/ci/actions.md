@@ -151,7 +151,7 @@ create a secret named `GH_PAT`, the step will look like this:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 ```
 
-[goreleaser-action]: https://github.com/goreleaser/goreleaser-action
+[goreleaser-action]: https://github.com/amane3/goreleaser-action
 [actions]: https://github.com/features/actions
 [syntax]: https://help.github.com/en/articles/workflow-syntax-for-github-actions#About-yaml-syntax-for-workflows
 [signing]: https://goreleaser.com/customization/sign/
