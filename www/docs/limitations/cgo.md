@@ -7,5 +7,5 @@ Fortunately, there are ways to make it working.
 [Checkout one of them](/cookbooks/cgo-and-crosscompiling)
 
 You can see the discussion about CGO in
-[this issue](https://github.com/goreleaser/goreleaser/issues/708).
+[this issue](https://github.com/amane3/goreleaser/issues/708).
 

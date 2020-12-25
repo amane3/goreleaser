@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
+	"github.com/amane3/goreleaser/pkg/context"
 	"github.com/apex/log"
-	"github.com/goreleaser/goreleaser/pkg/context"
 	yaml "gopkg.in/yaml.v2"
 )
 

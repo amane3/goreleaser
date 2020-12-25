@@ -150,6 +150,6 @@ as GoReleaser doesn't control how these get generated beyond just executing `gon
 with given arguments. Relatedly you may need to list these additional artifacts
 as `extra_files` in the `release` section to make sure they also get uploaded.
 
-You can also check [this issue](https://github.com/goreleaser/goreleaser/issues/1227) for more details.
+You can also check [this issue](https://github.com/amane3/goreleaser/issues/1227) for more details.
 
 [gon]: https://github.com/mitchellh/gon

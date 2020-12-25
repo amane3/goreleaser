@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/goreleaser/goreleaser/internal/testlib"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/amane3/goreleaser/internal/testlib"
+	"github.com/amane3/goreleaser/pkg/config"
+	"github.com/amane3/goreleaser/pkg/context"
 )
 
 func TestDescription(t *testing.T) {
@@ -208,7 +208,7 @@ func TestTagFromCI(t *testing.T) {
 	}{
 		// It is not possible to concisely figure out the tag if a commit has more than one tags. Git always
 		// returns the tags in lexicographical order (ASC), which implies that we expect v0.0.1 here.
-		// More details: https://github.com/goreleaser/goreleaser/issues/1163
+		// More details: https://github.com/amane3/goreleaser/issues/1163
 		{expected: "v0.0.1"},
 		{
 			envs:     map[string]string{"GORELEASER_CURRENT_TAG": "v0.0.2"},

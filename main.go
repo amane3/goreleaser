@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/goreleaser/goreleaser/cmd"
+	"github.com/amane3/goreleaser/cmd"
 )
 
 // nolint: gochecknoglobals

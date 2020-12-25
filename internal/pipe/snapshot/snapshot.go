@@ -4,9 +4,9 @@ package snapshot
 import (
 	"fmt"
 
-	"github.com/goreleaser/goreleaser/internal/pipe"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/amane3/goreleaser/internal/pipe"
+	"github.com/amane3/goreleaser/internal/tmpl"
+	"github.com/amane3/goreleaser/pkg/context"
 )
 
 // Pipe for checksums.

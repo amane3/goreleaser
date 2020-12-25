@@ -40,7 +40,7 @@ install with `dpkg -i` and `rpm -i` respectively.
 **Shell script**:
 
 ```sh
-curl -sfL https://install.goreleaser.com/github.com/goreleaser/goreleaser.sh | sh
+curl -sfL https://install.goreleaser.com/github.com/amane3/goreleaser.sh | sh
 ```
 
 **manually**:
@@ -78,8 +78,8 @@ If you need more things, you are encouraged to keep your own image. You can
 always use GoReleaser's [own Dockerfile][dockerfile] as an example though
 and iterate from that.
 
-[dockerfile]: https://github.com/goreleaser/goreleaser/blob/master/Dockerfile
-[releases]: https://github.com/goreleaser/goreleaser/releases
+[dockerfile]: https://github.com/amane3/goreleaser/blob/master/Dockerfile
+[releases]: https://github.com/amane3/goreleaser/releases
 
 ## Compiling from source
 
@@ -93,7 +93,7 @@ If you just want to build from source for whatever reason, follow these steps:
 **Clone:**
 
 ```sh
-git clone https://github.com/goreleaser/goreleaser
+git clone https://github.com/amane3/goreleaser
 cd goreleaser
 ```
 

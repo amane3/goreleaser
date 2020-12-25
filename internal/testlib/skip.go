@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/internal/pipe"
+	"github.com/amane3/goreleaser/internal/pipe"
 	"github.com/stretchr/testify/require"
 )
 

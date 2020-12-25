@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/goreleaser/goreleaser/pkg/config"
+	"github.com/amane3/goreleaser/pkg/config"
 )
 
 // ExtractRepoFromConfig gets the repo name from the Git config.

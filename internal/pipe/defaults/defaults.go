@@ -5,10 +5,10 @@ package defaults
 import (
 	"strings"
 
-	"github.com/goreleaser/goreleaser/internal/client"
-	"github.com/goreleaser/goreleaser/internal/middleware"
-	"github.com/goreleaser/goreleaser/pkg/context"
-	"github.com/goreleaser/goreleaser/pkg/defaults"
+	"github.com/amane3/goreleaser/internal/client"
+	"github.com/amane3/goreleaser/internal/middleware"
+	"github.com/amane3/goreleaser/pkg/context"
+	"github.com/amane3/goreleaser/pkg/defaults"
 )
 
 // Pipe that sets the defaults.

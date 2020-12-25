@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os/exec"
 
+	"github.com/amane3/goreleaser/internal/tmpl"
+	"github.com/amane3/goreleaser/pkg/context"
 	"github.com/apex/log"
 	"github.com/fatih/color"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/context"
 	"github.com/mattn/go-shellwords"
 )
 

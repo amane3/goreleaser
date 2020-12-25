@@ -5,10 +5,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/goreleaser/goreleaser/pkg/archive/gzip"
-	"github.com/goreleaser/goreleaser/pkg/archive/targz"
-	"github.com/goreleaser/goreleaser/pkg/archive/tarxz"
-	"github.com/goreleaser/goreleaser/pkg/archive/zip"
+	"github.com/amane3/goreleaser/pkg/archive/gzip"
+	"github.com/amane3/goreleaser/pkg/archive/targz"
+	"github.com/amane3/goreleaser/pkg/archive/tarxz"
+	"github.com/amane3/goreleaser/pkg/archive/zip"
 )
 
 // Archive represents a compression archive files from disk can be written to.

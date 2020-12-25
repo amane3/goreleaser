@@ -5,10 +5,10 @@ package deprecate
 import (
 	"strings"
 
+	"github.com/amane3/goreleaser/pkg/context"
 	"github.com/apex/log"
 	"github.com/apex/log/handlers/cli"
 	"github.com/fatih/color"
-	"github.com/goreleaser/goreleaser/pkg/context"
 )
 
 const baseURL = "https://goreleaser.com/deprecations#"

@@ -86,7 +86,7 @@ goreleaser
 That's all! Check your GitHub project's release page.
 The release should look like this:
 
-<a href="https://github.com/goreleaser/goreleaser/releases">
+<a href="https://github.com/amane3/goreleaser/releases">
   <img width="100%"
     src="https://cloud.githubusercontent.com/assets/245435/23342061/fbcbd506-fc31-11e6-9d2b-4c1b776dee9c.png">
 </a>

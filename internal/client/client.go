@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/amane3/goreleaser/internal/artifact"
+	"github.com/amane3/goreleaser/pkg/config"
+	"github.com/amane3/goreleaser/pkg/context"
 	"github.com/apex/log"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
 )
 
 // Info of the repository.

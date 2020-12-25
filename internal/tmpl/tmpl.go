@@ -10,9 +10,9 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/pkg/build"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/amane3/goreleaser/internal/artifact"
+	"github.com/amane3/goreleaser/pkg/build"
+	"github.com/amane3/goreleaser/pkg/context"
 )
 
 // Template holds data that can be applied to a template string.

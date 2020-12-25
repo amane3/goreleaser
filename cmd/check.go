@@ -3,11 +3,11 @@ package cmd
 import (
 	"fmt"
 
+	"github.com/amane3/goreleaser/internal/pipe/defaults"
+	"github.com/amane3/goreleaser/pkg/context"
 	"github.com/apex/log"
 	"github.com/caarlos0/ctrlc"
 	"github.com/fatih/color"
-	"github.com/goreleaser/goreleaser/internal/pipe/defaults"
-	"github.com/goreleaser/goreleaser/pkg/context"
 	"github.com/spf13/cobra"
 )
 

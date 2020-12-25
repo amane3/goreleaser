@@ -3,8 +3,8 @@ package cmd
 import (
 	"os"
 
+	"github.com/amane3/goreleaser/pkg/config"
 	"github.com/apex/log"
-	"github.com/goreleaser/goreleaser/pkg/config"
 )
 
 func loadConfig(path string) (config.Project, error) {
