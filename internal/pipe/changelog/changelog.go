@@ -143,6 +143,7 @@ func buildChangelog(ctx *context.Context) ([]string, error) {
 	var entries = strings.Split(log, "\n")
 	entries = entries[0 : len(entries)-1]
 	entries, err = filterEntries(ctx, entries)
+	entries = filterMergePR(entries)
 	if err != nil {
 		return entries, err
 	}
@@ -158,6 +159,22 @@ func filterEntries(ctx *context.Context, entries []string) ([]string, error) {
 		entries = remove(r, entries)
 	}
 	return entries, nil
+}
+
+func filterMergePR(entries []string) (result []string) {
+	for _, entry := range entries {
+		if strings.Contains(entry, "Merge pull request") {
+			entrySlice := strings.Split(entry, "///")
+			hash := entrySlice[0]
+
+			subjectSlice := strings.Split(entrySlice[1], " ")
+			PR := fmt.Sprintf("(%s)", subjectSlice[3])
+
+			body := entrySlice[2]
+			result = append(result, fmt.Sprintf("%s %s(%s)", hash, body, PR))
+		}
+	}
+	return result
 }
 
 func sortEntries(ctx *context.Context, entries []string) []string {
@@ -203,7 +220,7 @@ func getChangelog(tag string) (string, error) {
 }
 
 func gitLog(refs ...string) (string, error) {
-	var args = []string{"log", "--pretty=oneline", "--abbrev-commit", "--no-decorate", "--no-color"}
+	var args = []string{"log", "--merges", "--pretty=format:'%h///%s///%b'", "--no-decorate", "--no-color"}
 	args = append(args, refs...)
 	return git.Run(args...)
 }

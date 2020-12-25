@@ -28,6 +28,8 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 )
 
+replace github.com/goreleaser/goreleaser => github.com/amane3/goreleaser
+
 // https://github.com/mattn/go-shellwords/pull/39
 replace github.com/mattn/go-shellwords => github.com/caarlos0/go-shellwords v1.0.11
 
