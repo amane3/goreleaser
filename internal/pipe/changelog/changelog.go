@@ -168,7 +168,7 @@ func filterMergePR(entries []string) (result []string) {
 			hash := entrySlice[0]
 
 			subjectSlice := strings.Split(entrySlice[1], " ")
-			PR := fmt.Sprintf("(%s)", subjectSlice[3])
+			PR := subjectSlice[3]
 
 			body := entrySlice[2]
 			result = append(result, fmt.Sprintf("%s %s(%s)", hash, body, PR))
