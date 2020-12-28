@@ -171,7 +171,9 @@ func filterMergePR(entries []string) (result []string) {
 			PR := subjectSlice[3]
 
 			body := entrySlice[2]
-			result = append(result, fmt.Sprintf("%s %s(%s)", hash, body, PR))
+			entryString := fmt.Sprintf("%s %s(%s)", hash, body, PR)
+			entryString = strings.Replace(entryString, "'", "", -1)
+			result = append(result, entryString)
 		}
 	}
 	return result
